@@ -2,8 +2,8 @@
 
 ### to build & run locally
 
-sudo docker build -t akubot
-sudo docker run -e HUBOT_FLOWDOCK_API_TOKEN=... -it --rm --name akubot-1 akubot
+    sudo docker build -t akubot
+    sudo docker run -e HUBOT_FLOWDOCK_API_TOKEN=... -it --rm --name akubot-1 akubot
 
 ### this is the original generated README
 
