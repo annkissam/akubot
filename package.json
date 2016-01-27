@@ -5,22 +5,22 @@
   "author": "Octavian Neamtu <octavian.neamtu@annkissam.com>",
   "description": "This is the story all about how...",
   "dependencies": {
-    "cron": "~1.0.4",
-    "githubot": "0.4.0",
-    "hubot": "~2.9.3",
+    "cron": "~1.1.0",
+    "githubot": "1.0.0",
+    "hubot": "~2.18.0",
     "hubot-automerge": "git://github.com/annkissam/hubot-automerge.git",
     "hubot-flowdock": "~0.7.2",
-    "hubot-google-images": "~0.1.1",
-    "hubot-google-translate": "~0.1.0",
+    "hubot-google-images": "~0.2.6",
+    "hubot-google-translate": "~0.2.0",
     "hubot-help": "~0.1.1",
-    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-heroku-keepalive": "1.0.2",
     "hubot-pugme": "~0.1.0",
-    "hubot-redis-brain": "0.0.2",
+    "hubot-redis-brain": "0.0.3",
     "hubot-rules": "~0.1.0",
-    "hubot-scripts": "~2.5.16",
-    "hubot-shipit": "~0.1.1",
-    "hubot-youtube": "~0.1.2",
-    "underscore": "~1.6.0"
+    "hubot-scripts": "~2.16.2",
+    "hubot-shipit": "~0.2.0",
+    "hubot-youtube": "~1.0.1",
+    "underscore": "~1.8.3"
   },
   "engines": {
     "node": "0.10.x"
