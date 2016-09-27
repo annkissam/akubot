@@ -1,3 +1,9 @@
 [
-  "ruby.coffee"
+  "ackbar.coffee",
+  "corgime.coffee",
+  "inigo-montoya.coffee",
+  "ruby.coffee",
+  "serenity.coffee",
+  "word-of-the-day.coffee",
+  "xkcd.coffee"
 ]
