@@ -20,6 +20,16 @@
 # 
 #
 #
+tryQuotes = [
+"Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
+"Do not fear failure but rather fear not trying.",
+"To learn something new, you need to try new things and not be afraid to be wrong.",
+"Defeat is not the worst of failures. Not to have tried is the true failure.,
+"Just try new things. Don't be afraid. Step out of your comfort zones and soar, all right?",
+"I try to look cute all the time.",
+"The one thing you shouldn't do is try to tell a cab driver how to get somewhere."
+]
+
 beerQuotes = [
   "Beer...Now there's a temporary solution.",
   "All right, brain. You don't like me and I don't like you, but let's just do this and I can get back to killing you with beer.",
@@ -42,7 +52,7 @@ beerQuotes = [
   "Beauty is in the eye of the beer holder",
   "Beer? Who wants to go to Roche?",
   "Rover at 5:30? Anyone?",
-  "isitbeertimefor.us"
+  "isitbeertimefor.us ?"
 ]
 
 yodaQuotes = [
@@ -76,5 +86,7 @@ module.exports = (robot) ->
     msg.send msg.random beerQuotes
   robot.hear /bacon|bagel|barbecue|burger|candy|coffee|ramen|sushi|chocolate|donut|sandwich|breakfast|lunch|dinner|food|grub/i, (msg) ->
     msg.send "Mmmm... " + msg.match[0]
+  robot.hear /try/i, (msg) ->
+     msg.send msg.random tryQuotes 
    robot.hear /yoda/i, (msg) ->
      msg.send msg.random yodaQuotes
