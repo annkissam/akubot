@@ -14,20 +14,20 @@
 #   <food> - replies with "Mmmm... <food>"
 #   beer - replies with random beer quote
 #   yoda - replies with random yoda quote
-#   
+#
 # Author:
 #   slambrosia  (based on bhankus' homer.coffee)
-# 
+#
 #
 #
 tryQuotes = [
-"Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
-"Do not fear failure but rather fear not trying.",
-"To learn something new, you need to try new things and not be afraid to be wrong.",
-"Defeat is not the worst of failures. Not to have tried is the true failure.,
-"Just try new things. Don't be afraid. Step out of your comfort zones and soar, all right?",
-"I try to look cute all the time.",
-"The one thing you shouldn't do is try to tell a cab driver how to get somewhere."
+  "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
+  "Do not fear failure but rather fear not trying.",
+  "To learn something new, you need to try new things and not be afraid to be wrong.",
+  "Defeat is not the worst of failures. Not to have tried is the true failure.",
+  "Just try new things. Don't be afraid. Step out of your comfort zones and soar, all right?",
+  "I try to look cute all the time.",
+  "The one thing you shouldn't do is try to tell a cab driver how to get somewhere."
 ]
 
 beerQuotes = [
@@ -87,6 +87,6 @@ module.exports = (robot) ->
   robot.hear /bacon|bagel|barbecue|burger|candy|coffee|ramen|sushi|chocolate|donut|sandwich|breakfast|lunch|dinner|food|grub/i, (msg) ->
     msg.send "Mmmm... " + msg.match[0]
   robot.hear /try/i, (msg) ->
-     msg.send msg.random tryQuotes 
+     msg.send msg.random tryQuotes
    robot.hear /yoda/i, (msg) ->
      msg.send msg.random yodaQuotes
