@@ -93,7 +93,7 @@ knockQuotes = [
 flamesQuotes = [
  "https://media.giphy.com/media/t7ROzZQbH2KiI/giphy.gif",
  "https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif",
- https://media.giphy.com/media/QZkpIdieotn3i/giphy.gif"
+ "https://media.giphy.com/media/QZkpIdieotn3i/giphy.gif"
 ]
 
 module.exports = (robot) ->
