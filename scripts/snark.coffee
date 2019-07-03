@@ -26,7 +26,8 @@ tryQuotes = [
   "To learn something new, you need to try new things and not be afraid to be wrong.",
   "Defeat is not the worst of failures. Not to have tried is the true failure.",
   "Just try new things. Don't be afraid. Step out of your comfort zones and soar, all right?",
-  "I try to look cute all the time.",
+ "<insert witty/annoying try quote here>"",  
+"I try to look cute all the time.",
   "The one thing you shouldn't do is try to tell a cab driver how to get somewhere."
 ]
 
