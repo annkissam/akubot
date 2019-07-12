@@ -96,6 +96,13 @@ flamesQuotes = [
  "https://media.giphy.com/media/QZkpIdieotn3i/giphy.gif"
 ]
 
+serenityQuotes = ["Serenity now...insanity later!",
+              "Hey Braun!...Costanza is kicking your butt!",
+              "Costanza, you're white hot!!",
+              "Listen to me, George....I owe ya one.",
+              "This is a place of business, I told you never to come in here! Serenity now!"
+]
+
 module.exports = (robot) ->
   robot.hear /beer/i, (msg) ->
     msg.send msg.random beerQuotes
@@ -109,3 +116,6 @@ module.exports = (robot) ->
      msg.send msg.random knockQuotes
    robot.hear /flames/i, (msg) ->
      msg.send msg.random flamesQuotes
+   robot.hear /serenity|serenity now/i, (msg) ->
+     msg.send msg.random serenityQuotes
+     msg.send "https://www.youtube.com/watch?v=WBMTH-4B2NI"
