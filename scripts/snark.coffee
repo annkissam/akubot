@@ -99,7 +99,7 @@ flamesQuotes = [
 serenityQuotes = ["Serenity now...insanity later!",
               "Hey Braun!...Costanza is kicking your butt!",
               "Costanza, you're white hot!!",
-              "Listen to me, George....I owe ya one.",
+              "Listen to me, George...I owe ya one.",
               "This is a place of business, I told you never to come in here! Serenity now!"
 ]
 
